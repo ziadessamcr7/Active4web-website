@@ -196,7 +196,7 @@ nav .navLogo {
 
 
 #my-sec svg {
-    bottom: -1px;
+    bottom: -2px;
     position: absolute;
 }
 
@@ -264,6 +264,12 @@ nav .navLogo {
 #my-sec .rightSide .col-6:nth-child(1),
 #my-sec .rightSide .col-6:nth-child(3) {
     text-align: end;
+}
+
+#my-sec .row:nth-child(2) .floatingForm {
+    /* background-color: salmon; */
+    position: relative;
+    z-index: 555;
 }
 
 
