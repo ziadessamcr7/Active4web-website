@@ -1,0 +1,652 @@
+* {
+    box-sizing: border-box !important;
+}
+
+:root {
+    --mainColor: #183f72;
+    --secondaryColor: #00a1cd;
+}
+
+body {
+    /* direction: ltr; */
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+.myContainer {
+    width: 90%;
+    margin: auto;
+    font-weight: 500;
+}
+
+
+.mainButton,
+.secondaryButton {
+    color: white;
+    padding: 17px 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.mainButton {
+    background-color: var(--mainColor);
+}
+
+.secondaryButton {
+    background-color: var(--secondaryColor);
+}
+
+.Blue-line {
+    background-color: #00a1cd;
+    width: 50px;
+    height: 5px;
+    margin-right: 20px;
+}
+
+.lineBox {
+    /* background-color: sandybrown; */
+    display: flex;
+    align-items: center;
+}
+
+
+
+.upperNav {
+    display: flex;
+    background-color: re;
+    /* color: white; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    padding: 0;
+}
+
+.left {
+    background-color: seageen;
+    display: flex;
+    align-items: center;
+    padding: 13px 0;
+    border-bottom: 1px solid #f0f0f0;
+    flex-grow: 2;
+
+}
+
+.upperNav .mainButton {
+    margin-left: 20px;
+}
+
+
+.left p {
+    margin-bottom: 0;
+}
+
+.upperNav .left ul {
+    list-style-type: none;
+    display: flex;
+    /* background-color: sandybrown; */
+    align-items: center;
+    margin-bottom: 0;
+    margin-right: 30px;
+    padding-left: 0;
+}
+
+.upperNav ul li {
+    margin-right: 27px;
+}
+
+nav img {
+    height: 65px;
+    width: 85px;
+}
+
+.logo {
+    width: 40%;
+}
+
+
+
+.navContainer {
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+    background-color: #fff;
+    transition: all 0.5s;
+
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: chocolate; */
+    width: 100%;
+}
+
+nav ul li {
+    font-size: 16px;
+    font-weight: 800;
+    color: red;
+}
+
+
+nav ul li a.active {
+    background-color: var(--secondaryColor);
+    color: #000;
+    border-radius: 5px;
+}
+
+nav ul li.nav-item:hover:not(:last-child) {}
+
+.nav-item:nth-last-of-type(1) {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 0;
+}
+
+.nav-item:nth-last-of-type(1) i {
+    font-size: 35px;
+    margin-right: 10px;
+    color: var(--secondaryColor);
+}
+
+.nav-item:nth-last-of-type(1) p {
+    color: #777;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-item:nth-last-of-type(1) h6 {
+    color: var(--secondaryColor);
+    font-size: 20px;
+}
+
+nav .navLogo {
+    /* width: 100%; */
+    /* background-color: salmon; */
+}
+
+header {
+    background-color: #00a1cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.titleWrapper {
+    color: white;
+    text-align: center;
+}
+
+header .titleWrapper a,
+header .titleWrapper i,
+header .titleWrapper span {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+header .titleWrapper i,
+header .titleWrapper span {
+    color: #c0bdbd;
+}
+
+header h5 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+
+#sec-1 {
+    background-color: white;
+    padding-bottom: 70px;
+}
+
+
+
+#sec-1 .row {
+    /* width: 95%; */
+    margin: auto;
+    overflow: hidden;
+}
+
+#sec-1 h2 {
+    font-size: 27px;
+    font-weight: 900;
+    color: var(--mainColor);
+}
+
+#sec-1 h4 {
+    color: #00a1cd;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#sec-1 .col-lg-7 img {
+    border-radius: 50%;
+}
+
+#sec-1 .col-lg-7 img {
+    width: 532px;
+    height: 533px;
+}
+
+.imgsWrapper {
+    position: relative;
+    /* background-color: salmon; */
+    text-align: center;
+}
+
+
+.imgsWrapper .innerImage {
+    background-image: url('../../assets/images/generic-1.jpg');
+    position: absolute;
+    left: 10px;
+    top: 49px;
+    height: 457px;
+    width: 457px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+}
+
+
+#sec-2 {
+    padding-block: 0px;
+    background-color: white;
+    position: relative;
+}
+
+#sec-2 h1 {
+    color: var(--mainColor);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#sec-2 h5 {
+    color: #777;
+    text-align: center;
+    font-size: 18px;
+    margin-block: 30px;
+}
+
+#sec-2 .swiper {
+    padding: 5px;
+}
+
+#sec-2 .swiper .cusotmCard {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+}
+
+#sec-2 .swiper .cusotmCard .cardBody h3 {
+    color: var(--mainColor);
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 37px;
+}
+
+#sec-2 .swiper .cusotmCard .cardBody h6 {
+    color: #777;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+#sec-2 .swiper .cusotmCard .cardBody p {
+    color: #777;
+    font-weight: 500;
+    line-height: 30px;
+
+
+}
+
+#sec-2 .swiper .cusotmCard .circle-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#sec-2 .socialsBox {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#sec-2 .socialsBox span {
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50%;
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: -3px;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: 10px;
+    left: -3px;
+}
+
+
+
+
+
+
+
+
+
+#sec-3 {
+    padding-block: 70px;
+    background-color: white;
+    position: relative;
+}
+
+#sec-3 h1 {
+    color: var(--mainColor);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#sec-3 h5 {
+    color: #777;
+    text-align: center;
+    font-size: 18px;
+    margin-block: 30px;
+}
+
+#sec-3 .swiper {
+    padding: 5px;
+}
+
+#sec-3 .swiper .cusotmCard {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+}
+
+#sec-3 .swiper .cusotmCard .cardBody h3 {
+    color: var(--mainColor);
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+#sec-3 .swiper .cusotmCard .cardBody h6 {
+    color: #777;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#sec-3 .swiper .cusotmCard .circle-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#sec-3 .socialsBox {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#sec-3 .socialsBox span {
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50%;
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Wrapper to position both elements */
+.circle-wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+/* Background circle */
+.circle-bg {
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 100%;
+    height: 100%;
+    background-color: #00a1cd;
+    /* Change this to your desired color */
+    border-radius: 50%;
+    z-index: 1;
+    /* Ensure it's behind the image */
+}
+
+/* Circle image */
+.circle-img {
+    position: relative;
+    /* So it can move on hover */
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 2;
+    /* Ensure it's on top of the background */
+    transition: all 0.2s linear;
+    /* Smooth transition for left and top */
+    /* Smooth transition */
+    left: 0;
+    /* Initial value for left */
+    top: 0;
+    /* Initial value for top */
+}
+
+/* Hover effect to move the image */
+.cusotmCard:hover .circle-img {
+    top: 6px;
+    left: -6px;
+}
+
+.cusotmCard:hover {
+    outline: 2px solid #00a1cd;
+    cursor: pointer;
+    margin: -2px;
+    /* Compensate for the added border */
+}
+
+#sec-3 .bottomSvg {
+    rotate: -180deg;
+    position: absolute;
+    bottom: -41%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    /* background-color: rgba(136, 136, 22, 0.2); */
+    height: 47%;
+}
+
+
+
+#sec-4 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0281d7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    z-index: 55555; */
+    padding-block: 120px 60px;
+    margin-bottom: 426px;
+
+}
+
+#sec-4 .row {
+    position: relative;
+    z-index: 22;
+}
+
+#sec-4 .row p {
+
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+#sec-4 .row h1 span {
+    /* background-color: black; */
+    padding: 0 3px;
+    animation-duration: 2s;
+
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+#sec-4 .row h1 span::after {
+    content: '';
+    background-color: black;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 1s;
+    animation: slide 2s both;
+    animation-delay: 3s;
+}
+
+#sec-4 .mainButton {
+    display: block;
+    margin-left: auto;
+    padding: 17px 28px;
+}
+
+
+
+footer {
+    background-color: var(--mainColor);
+    /* height: 500px; */
+    /* background-attachment: scroll; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    z-index: -10;
+    padding-block: 30px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer h4 {
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    padding: 7px 0;
+    color: #a3b2c7;
+}
+
+footer small {
+    color: #a3b2c7;
+}
+
+footer ul li.socials {
+    width: 60%;
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .row:nth-child(2) {
+    border-top: 1px solid #1f4576;
+    padding-top: 30px;
+}
+
+footer .row:nth-child(2) img {
+    width: 130px;
+    height: 85px;
+}
+
+#btnUp {
+    color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    background-color: #0281d7;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    z-index: 55555555;
+}
+
+
+
+
+
+@keyframes slide {
+    100% {
+        width: 100%;
+    }
+}

@@ -1,0 +1,268 @@
+@media (max-width: 576px) {
+
+
+    .mainButton,
+    .secondaryButton {
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px
+    }
+
+    .upperNav .left ul {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav .navLogo {
+        display: flex !important;
+    }
+
+    nav ul li a.nav-link {
+        padding-left: 10px;
+    }
+
+    .upperNav .left p {
+        font-size: 12px;
+    }
+
+
+    #sec-1 .svgWrapper .bottomSvg {
+        rotate: -180deg;
+        position: absolute;
+        bottom: -3%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        height: fit-content;
+    }
+
+    #sec-2 {
+        margin-bottom: 0;
+    }
+
+    #sec-2 {
+        text-align: center;
+    }
+
+    #sec-2 .mainButton {
+        display: inline-block;
+    }
+
+    #sec-2 p {
+        margin-block: 20px;
+    }
+
+    footer {
+        position: static;
+    }
+
+    footer h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+
+    }
+
+    footer ul li {
+        padding: 3px 0;
+        font-size: 14px;
+    }
+
+    footer .row:nth-child(2) {
+        display: block;
+        text-align: center;
+    }
+
+    footer ul li.socials {
+        width: 25%;
+    }
+
+    footer .row:nth-child(2) img {
+        margin-bottom: 25px;
+    }
+
+
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    .mainButton,
+    .secondaryButton {
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px
+    }
+
+    .upperNav .left ul {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav .navLogo {
+        display: flex !important;
+    }
+
+    nav ul li a.nav-link {
+        padding-left: 10px;
+    }
+
+    #sec-1 {
+        padding-bottom: 100px;
+    }
+
+    #sec-1 .svgWrapper .bottomSvg {
+        rotate: -180deg;
+        position: absolute;
+        bottom: -4%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        height: fit-content;
+    }
+
+
+    #sec-2 {
+        margin-bottom: 0;
+    }
+
+    #sec-2 {
+        text-align: center;
+    }
+
+    #sec-2 .mainButton {
+        display: inline-block;
+    }
+
+    #sec-2 p {
+        margin-block: 20px;
+    }
+
+    footer {
+        position: static;
+    }
+
+    footer h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+
+    }
+
+    footer ul li {
+        padding: 3px 0;
+        font-size: 14px;
+    }
+
+    footer .row:nth-child(2) {
+        display: block;
+        text-align: center;
+    }
+
+    footer ul li.socials {
+        width: 25%;
+    }
+
+    footer .row:nth-child(2) img {
+        margin-bottom: 25px;
+    }
+
+}
+
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .logo {
+        display: none;
+    }
+
+    nav .navLogo {
+        display: flex !important;
+    }
+
+    nav ul li a.nav-link {
+        padding-left: 10px;
+    }
+
+
+    #sec-1 .svgWrapper .bottomSvg {
+        bottom: -12%;
+        height: 15%;
+    }
+
+    #sec-2 {
+        margin-bottom: 0;
+    }
+
+    footer {
+        position: static;
+    }
+
+    footer h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+
+    }
+
+    footer ul li {
+        padding: 3px 0;
+        font-size: 14px;
+    }
+
+    footer .row:nth-child(2) {
+        display: block;
+        text-align: center;
+    }
+
+    footer ul li.socials {
+        width: 25%;
+    }
+
+    footer .row:nth-child(2) img {
+        margin-bottom: 25px;
+    }
+
+    footer .secondaryButton {
+        padding: 5px 25px;
+        font-size: 12px;
+    }
+
+
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    nav ul li.nav-item:not(:last-child) {
+        font-size: 14px !important;
+    }
+
+    #sec-1 .svgWrapper .bottomSvg {
+        bottom: -21%;
+        height: 24%;
+    }
+
+    #sec-2 {
+        margin-bottom: 450px;
+    }
+
+    footer {
+        padding-block: 100px;
+    }
+
+    footer .secondaryButton {
+        padding: 5px 25px;
+        font-size: 12px;
+    }
+}

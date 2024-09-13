@@ -1,0 +1,462 @@
+* {
+    box-sizing: border-box !important;
+}
+
+:root {
+    --mainColor: #183f72;
+    --secondaryColor: #00a1cd;
+}
+
+body {
+    /* direction: ltr; */
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+.myContainer {
+    width: 90%;
+    margin: auto;
+    font-weight: 500;
+}
+
+
+.mainButton,
+.secondaryButton {
+    color: white;
+    padding: 17px 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.mainButton {
+    background-color: var(--mainColor);
+}
+
+.secondaryButton {
+    background-color: var(--secondaryColor);
+}
+
+.Blue-line {
+    background-color: #00a1cd;
+    width: 50px;
+    height: 5px;
+    margin-right: 20px;
+}
+
+.lineBox {
+    /* background-color: sandybrown; */
+    display: flex;
+    align-items: center;
+}
+
+
+
+.upperNav {
+    display: flex;
+    background-color: re;
+    /* color: white; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    padding: 0;
+}
+
+.left {
+    background-color: seageen;
+    display: flex;
+    align-items: center;
+    padding: 13px 0;
+    border-bottom: 1px solid #f0f0f0;
+    flex-grow: 2;
+
+}
+
+.upperNav .mainButton {
+    margin-left: 20px;
+}
+
+
+.left p {
+    margin-bottom: 0;
+}
+
+.upperNav .left ul {
+    list-style-type: none;
+    display: flex;
+    /* background-color: sandybrown; */
+    align-items: center;
+    margin-bottom: 0;
+    margin-right: 30px;
+    padding-left: 0;
+}
+
+.upperNav ul li {
+    margin-right: 27px;
+}
+
+nav img {
+    height: 65px;
+    width: 85px;
+}
+
+.logo {
+    width: 40%;
+}
+
+
+
+.navContainer {
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+    background-color: #fff;
+    transition: all 0.5s;
+
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: chocolate; */
+    width: 100%;
+}
+
+nav ul li {
+    font-size: 16px;
+    font-weight: 800;
+    color: red;
+}
+
+
+nav ul li a.active {
+    background-color: var(--secondaryColor);
+    color: #000;
+    border-radius: 5px;
+}
+
+nav ul li.nav-item:hover:not(:last-child) {}
+
+.nav-item:nth-last-of-type(1) {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 0;
+}
+
+.nav-item:nth-last-of-type(1) i {
+    font-size: 35px;
+    margin-right: 10px;
+    color: var(--secondaryColor);
+}
+
+.nav-item:nth-last-of-type(1) p {
+    color: #777;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-item:nth-last-of-type(1) h6 {
+    color: var(--secondaryColor);
+    font-size: 20px;
+}
+
+nav .navLogo {
+    /* width: 100%; */
+    /* background-color: salmon; */
+}
+
+header {
+    background-color: #00a1cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.titleWrapper {
+    color: white;
+    text-align: center;
+}
+
+header .titleWrapper a,
+header .titleWrapper i,
+header .titleWrapper span {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+header .titleWrapper i,
+header .titleWrapper span {
+    color: #c0bdbd;
+}
+
+header h5 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#sec-1 {
+    padding-block: 50px;
+    background-color: #f2f2f2;
+    position: relative;
+
+}
+
+#sec-1 h6 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#sec-1 .row p:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+
+#sec-1 .row p,
+#sec-1 h6 {
+    color: #8a8a8a;
+}
+
+
+
+
+/* Wrapper to position both elements */
+#sec-1 .row .circle-wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+/* Background circle */
+#sec-1 .row .circle-bg {
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 100%;
+    height: 100%;
+    background-color: #00a1cd;
+    /* Change this to your desired color */
+    border-radius: 50%;
+    z-index: 1;
+    /* Ensure it's behind the image */
+}
+
+/* Circle image */
+#sec-1 .row .circle-img {
+    position: relative;
+    /* So it can move on hover */
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 2;
+    /* Ensure it's on top of the background */
+    transition: all 0.2s linear;
+    /* Smooth transition for left and top */
+    /* Smooth transition */
+    left: 0;
+    /* Initial value for left */
+    top: 0;
+    /* Initial value for top */
+}
+
+/* Hover effect to move the image */
+#sec-1 .row .cusotmCard:hover .circle-img {
+    top: 6px;
+    left: -6px;
+}
+
+#sec-1 .row .cusotmCard:hover {
+    outline: 2px solid #00a1cd;
+    cursor: pointer;
+}
+
+#sec-1 .cusotmCard {
+    background-color: white;
+    padding: 10px;
+}
+
+#sec-1 .cardBody a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#sec-1 .row:nth-of-type(2) {
+    margin-top: 25px;
+}
+
+#sec-1 .svgWrapper .bottomSvg {
+    rotate: -180deg;
+    position: absolute;
+    bottom: -30%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    /* background-color: rgba(136, 136, 22, 0.2); */
+    height: 34%;
+}
+
+
+
+
+#sec-2 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0281d7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    z-index: 55555; */
+    padding-block: 120px 100px;
+    margin-bottom: 426px;
+
+}
+
+#sec-2 .row {
+    position: relative;
+    z-index: 22;
+}
+
+#sec-2 .row p {
+
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+#sec-2 .row h1 span {
+    /* background-color: black; */
+    padding: 0 3px;
+    animation-duration: 2s;
+
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+#sec-2 .row h1 span::after {
+    content: '';
+    background-color: black;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 1s;
+    animation: slide 2s both;
+    animation-delay: 3s;
+}
+
+#sec-2 .mainButton {
+    display: block;
+    margin-left: auto;
+    padding: 17px 28px;
+}
+
+
+
+footer {
+    background-color: var(--mainColor);
+    /* height: 500px; */
+    /* background-attachment: scroll; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    z-index: -10;
+    padding-block: 30px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer h4 {
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    padding: 7px 0;
+    color: #a3b2c7;
+}
+
+footer small {
+    color: #a3b2c7;
+}
+
+footer ul li.socials {
+    width: 60%;
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .row:nth-child(2) {
+    border-top: 1px solid #1f4576;
+    padding-top: 30px;
+}
+
+footer .row:nth-child(2) img {
+    width: 130px;
+    height: 85px;
+}
+
+#btnUp {
+    color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    background-color: #0281d7;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    z-index: 55555555;
+}
+
+
+
+
+@keyframes slide {
+    100% {
+        width: 100%;
+    }
+}

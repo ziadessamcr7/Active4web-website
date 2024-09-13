@@ -1,0 +1,368 @@
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) {
+
+
+
+     .mainButton,
+     .secondaryButton {
+         color: white;
+         padding: 15px 25px;
+         border: none;
+         border-radius: 5px;
+         font-weight: bold;
+         text-transform: uppercase;
+         font-size: 12px
+     }
+
+
+     .upperNav .left ul {
+         display: none;
+     }
+
+     .upperNav p {
+         font-size: 12px;
+     }
+
+     .logo {
+         display: none;
+     }
+
+     nav .navLogo {
+         display: flex !important;
+     }
+
+     nav ul li a.nav-link {
+         padding-left: 10px;
+     }
+
+
+     .imgsWrapper {
+         position: relative;
+     }
+
+
+     .imgsWrapper .innerImage {
+         background-image: url('../../assets/images/generic-1.jpg');
+         position: absolute;
+         left: -22px;
+         top: 15px;
+         height: 300px;
+         width: 300px;
+         background-size: cover;
+         background-position: center center;
+         background-repeat: no-repeat;
+         border-radius: 50%;
+     }
+
+     #sec-1 .col-lg-7 .imgsWrapper img {
+
+         border-radius: 50%;
+         width: 330px;
+         height: 330px;
+     }
+
+     #sec-2 .swiper .cusotmCard {
+         width: 80%;
+         margin: auto;
+     }
+
+     #sec-3 .bottomSvg {
+         bottom: -13%;
+         height: 15%;
+     }
+
+     #sec-3 .swiper .cusotmCard {
+         width: 80%;
+         margin: auto;
+     }
+
+
+     #sec-4 {
+         margin-bottom: 0;
+     }
+
+     #sec-4 {
+         text-align: center;
+     }
+
+     #sec-4 .mainButton {
+         display: inline-block;
+     }
+
+     #sec-4 p {
+         margin-block: 20px;
+     }
+
+     #sec-4 .row h1 span {
+         font-size: 25px;
+     }
+
+     footer {
+         position: static;
+     }
+
+     footer h4 {
+         font-size: 18px;
+         margin-bottom: 10px;
+
+     }
+
+     footer ul li {
+         padding: 3px 0;
+         font-size: 14px;
+     }
+
+     footer .row:nth-child(2) {
+         display: block;
+         text-align: center;
+     }
+
+     footer ul li.socials {
+         width: 25%;
+     }
+
+     footer .row:nth-child(2) img {
+         margin-bottom: 25px;
+     }
+
+ }
+
+ /* // Medium devices (tablets, 768px and up) */
+ @media (min-width: 577px) and (max-width: 768px) {
+
+
+     .mainButton,
+     .secondaryButton {
+         color: white;
+         padding: 15px 25px;
+         border: none;
+         border-radius: 5px;
+         font-weight: bold;
+         text-transform: uppercase;
+         font-size: 12px
+     }
+
+
+     .upperNav .left ul {
+         display: none;
+     }
+
+
+
+     .logo {
+         display: none;
+     }
+
+     nav .navLogo {
+         display: flex !important;
+     }
+
+     nav ul li a.nav-link {
+         padding-left: 10px;
+     }
+
+
+     .imgsWrapper {
+         position: relative;
+     }
+
+
+     .imgsWrapper .innerImage {
+
+         left: 2px;
+         top: 31px;
+         height: 376px;
+         width: 376px;
+
+     }
+
+     #sec-1 .col-lg-7 .imgsWrapper img {
+
+         border-radius: 50%;
+         width: 434px;
+         height: 434px;
+
+     }
+
+     #sec-3 .bottomSvg {
+         bottom: -16%;
+         height: 20%;
+     }
+
+
+     #sec-4 {
+         margin-bottom: 0;
+     }
+
+     #sec-4 {
+         text-align: center;
+     }
+
+     #sec-4 .mainButton {
+         display: inline-block;
+     }
+
+     #sec-4 p {
+         margin-block: 20px;
+     }
+
+     footer {
+         position: static;
+     }
+
+     footer h4 {
+         font-size: 18px;
+         margin-bottom: 10px;
+
+     }
+
+     footer ul li {
+         padding: 3px 0;
+         font-size: 14px;
+     }
+
+     footer .row:nth-child(2) {
+         display: block;
+         text-align: center;
+     }
+
+     footer ul li.socials {
+         width: 25%;
+     }
+
+     footer .row:nth-child(2) img {
+         margin-bottom: 25px;
+     }
+ }
+
+ /* // Large devices (desktops, 992px and up) */
+ @media (min-width: 769px) and (max-width: 992px) {
+
+     .logo {
+         display: none;
+     }
+
+     nav .navLogo {
+         display: flex !important;
+     }
+
+     nav ul li a.nav-link {
+         padding-left: 10px;
+     }
+
+
+     #sec-3 .bottomSvg {
+         bottom: -29%;
+         height: 35%;
+     }
+
+     #sec-4 {
+         margin-bottom: 0;
+     }
+
+
+     #sec-4 {
+         text-align: center;
+     }
+
+     #sec-4 .mainButton {
+         display: inline-block;
+     }
+
+     #sec-4 p {
+         margin-block: 20px;
+     }
+
+     footer {
+         position: static;
+     }
+
+     footer h4 {
+         font-size: 18px;
+         margin-bottom: 10px;
+
+     }
+
+     footer ul li {
+         padding: 3px 0;
+         font-size: 14px;
+     }
+
+     footer .row:nth-child(2) {
+         display: block;
+         text-align: center;
+     }
+
+     footer ul li.socials {
+         width: 25%;
+     }
+
+     footer .row:nth-child(2) img {
+         margin-bottom: 25px;
+     }
+
+     footer .secondaryButton {
+         padding: 5px 25px;
+         font-size: 12px;
+     }
+
+
+
+ }
+
+ /* // X-Large devices (large desktops, 1200px and up) */
+ @media (min-width: 993px) and (max-width: 1200px) {
+     nav ul li.nav-item:not(:last-child) {
+         font-size: 14px !important;
+     }
+
+
+     .imgsWrapper .innerImage {
+         left: -18px;
+         top: 40px;
+         height: 459px;
+         width: 459px;
+
+     }
+
+     #sec-3 .bottomSvg {
+         bottom: -34%;
+         height: 38%;
+     }
+
+
+
+     #sec-4 {
+         margin-bottom: 520px;
+     }
+
+     footer {
+         padding-block: 75px !important;
+     }
+
+     footer .secondaryButton {
+         padding: 5px 25px;
+         font-size: 12px;
+     }
+
+
+
+
+ }
+
+ /* // XX-Large devices (larger desktops, 1400px and up) */
+ @media (min-width: 1201px) {
+
+     /* #sec-4 {
+         margin-bottom: 485px;
+     } */
+
+
+     footer {
+         padding-block: 35px !important;
+     }
+
+     footer .secondaryButton {
+         padding: 12px 46px;
+     }
+ }
