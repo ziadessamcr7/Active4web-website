@@ -184,7 +184,7 @@ nav .navLogo {
 
 #my-sec {
     background-image: url('../../assets/images/Active4webBg.webp');
-    height: 200vh;
+    /* height: 125vh; */
     background-color: rgba(0, 0, 0, 0.8);
     background-position: center center;
     background-repeat: no-repeat;
@@ -242,28 +242,28 @@ nav .navLogo {
     animation-delay: 3s;
 }
 
-#my-sec ul.ContactInfo strong a {
+#my-sec .rightSide {
+    position: relative;
+    z-index: 5555;
+    /* color: salmon; */
+}
+
+
+
+#my-sec .rightSide h5 {
+    font-size: 16px;
+
+}
+
+#my-sec .rightSide h2 {
     font-size: 32px;
-    color: #183f72;
-}
-
-
-#my-sec ul.ContactInfo {
-    color: #777777;
-}
-
-#my-sec ul.ContactInfo strong a {
-    font-size: 37px;
-    color: #183f72;
-}
-
-#my-sec ul.ContactInfo a.email {
-    font-size: 20px;
+    font-weight: 700;
 
 }
 
-#my-sec ul.ContactInfo {
-    list-style-type: none;
+#my-sec .rightSide .col-6:nth-child(1),
+#my-sec .rightSide .col-6:nth-child(3) {
+    text-align: end;
 }
 
 
@@ -298,13 +298,13 @@ form h2 {
 
 
 #sec-1 {
-    background-color: white;
-    padding-top: 250px;
+    background-color: #fff;
+    padding-top: 80px;
     padding-bottom: 100px;
 }
 
 #sec-1 .myContainer {
-    padding-top: 70px;
+    /* padding-top: 70px; */
 }
 
 /* 
@@ -335,14 +335,14 @@ form h2 {
     padding-bottom: 25px;
 }
 
-#sec-1 .col-lg-3 i {
+/* #sec-1 .col-lg-3 i {
     font-size: 16px;
-}
+} */
 
-#sec-1 span {
+/* #sec-1 span {
     font-size: 20px;
     font-weight: 700;
-}
+} */
 
 #sec-1 .col-lg-7 img {
     border-radius: 50%;
