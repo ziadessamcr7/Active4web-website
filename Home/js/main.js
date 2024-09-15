@@ -118,7 +118,7 @@ let swiperCards3 = new Swiper('.card_content3', {
 
     // If we need pagination
     pagination: {
-        el: '.swiper-pagination',
+        el: '.swiper-pagination3',
         // dynamicBullets: true
     },
 
